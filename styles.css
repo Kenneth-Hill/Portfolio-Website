@@ -74,6 +74,7 @@ h3 {
     height: auto;
     margin: 10px;
     justify-content: center;
+    flex-grow: 1;
     /*border: 3px solid #333;*/
 }
 
