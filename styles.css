@@ -1,0 +1,98 @@
+/* Start of base styling */
+
+/* Using the table display propery to center body within the viewport */
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 800px;
+}
+/* end table layout */
+
+.flexbox-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.flexbox-container-2 {
+    justify-content: flex-start;
+    background-color: #1985A1;
+    padding-left: 16px;
+    border-radius: 16px;
+    box-shadow: 10px 20px #4C5C68;
+}
+
+.flex-nav {
+    justify-content: right;
+}
+
+.nav-item {
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 16px;
+    padding: 8px;
+    margin: 5px;
+}
+
+/* end of base styling */
+
+.profile-photo {
+    height: 300px;
+    width: 360px;
+    border-radius: 16px;
+    box-shadow: 10px 20px #4C5C68;
+}
+
+#opening-line {
+    float: right;
+    margin-top: 120px;
+    margin-left: 36px;
+    width: 500px;
+
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+/* For testing different flexible box properties */
+
+.flexbox-item {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    justify-content: center;
+    /*border: 3px solid #333;*/
+}
+
+.flexbox-item-1 {
+    margin-right: 24px;
+}
+
+/* Commented out because they aren't being used
+
+.flexbox-item-2 {
+    
+}
+
+.flexbox-item-3 {
+    
+}
+
+.flexbox-item-4 {
+
+}
+
+*/
