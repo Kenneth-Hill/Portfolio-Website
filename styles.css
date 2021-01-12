@@ -1,9 +1,7 @@
 /* Start of base styling */
 
 /* Using the table display propery to center body within the viewport */
-html, body {
-    height: 100%;
-}
+html, body {height: 100%;}
 
 html {
     display: table;
@@ -30,9 +28,7 @@ body {
     box-shadow: 10px 20px #4C5C68;
 }
 
-.flex-nav {
-    justify-content: right;
-}
+.flex-nav {justify-content: right;}
 
 .nav-item {
     background-color: white;
@@ -41,6 +37,8 @@ body {
     padding: 8px;
     margin: 5px;
 }
+
+a {text-decoration: none;}
 
 /* end of base styling */
 
@@ -59,15 +57,9 @@ body {
 
 }
 
-h2 {
-    text-decoration: underline;
-}
+h2 {text-decoration: underline;}
 
-h3 {
-    font-weight: normal;
-}
-
-/* For testing different flexible box properties */
+h3 {font-weight: normal;}
 
 .flexbox-item {
     width: auto;
@@ -78,22 +70,4 @@ h3 {
     /*border: 3px solid #333;*/
 }
 
-.flexbox-item-1 {
-    margin-right: 24px;
-}
-
-/* Commented out because they aren't being used
-
-.flexbox-item-2 {
-    
-}
-
-.flexbox-item-3 {
-    
-}
-
-.flexbox-item-4 {
-
-}
-
-*/
+.flexbox-item-1 {margin-right: 24px;}
