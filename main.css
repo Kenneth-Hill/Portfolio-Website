@@ -55,17 +55,17 @@ nav a:visited {color:whitesmoke;}
 #spacer{padding:8px;}
 
 .profile-photo {
-    height:200px;
-    width:200px;
+    height:300px;
+    width:300px;
     border-radius:360px;
 }
 
 .intro-container {
     display: block;
     height:50vh;
-    width:50vw;
+    width:60vw;
     margin-top:16px;
-    padding-top: 4rem;
+    padding-top: 236px;
     text-align:center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius:16px;
