@@ -1,0 +1,83 @@
+html, body {height:100%;}
+
+html {
+    display:table;
+    margin:auto;
+}
+
+body{
+    display:table-cell;
+    min-width:50vw;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    background-attachment:fixed;
+    background-size:cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    display:inline;   
+}
+
+.flex-wrapper {display:inline-flexbox;}
+
+.banner {
+    color:white;
+    background-color:black;
+    border-radius:16px;
+    padding:8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius:16px;
+    margin-top:24px;
+}
+
+nav {
+    display:inline;
+    float:right;
+    margin-top:16px;
+}
+
+nav a {padding:8px;}
+
+nav a:link {
+    text-decoration:none;
+    color:whitesmoke;
+}
+
+nav a:hover {color:aqua;}
+
+nav a:visited {color:whitesmoke;}
+
+#job-title{
+    font-size:16px;
+    font-weight:normal;
+}
+
+#spacer{padding:8px;}
+
+.profile-photo {
+    height:200px;
+    width:200px;
+    border-radius:360px;
+}
+
+.intro-container {
+    display: block;
+    height:50vh;
+    width:50vw;
+    margin-top:16px;
+    padding-top: 4rem;
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius:16px;
+    transition: 0.3s;
+}
+
+
+.footer {
+    display:block;
+    text-align:center;
+    padding: 4rem 4rem 4rem 4rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius:16px;
+}
+
